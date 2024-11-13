@@ -3,7 +3,7 @@ $(document).ready(function () {
   const productos = [
       { id: 1, nombre: "Mix Degustación", descripcion: "Cheesecake, Torta de Nuez, Lemon Pie, Torta Alaskita", precio: 13000, imagen: "images/mix.jpeg" },
       { id: 2, nombre: "Torta Terreneitor", descripcion: "Base de nuez, cobertura dulce de leche y chantilly.", precio: 17000, imagen: "images/torta-terreneitor.jpeg" },
-      { id: 3, nombre: "Cheesecake", descripcion: "Dulce de leche o frutos rojos con crema chantilly.", precio: 18000, imagen: "images/cheesecake.jpeg" },
+      { id: 3, nombre: "Cheesecake", descripcion: "Dulce de leche o frutos rojos con crema chantilly.", precio: 18000, imagen: "images/Cheesecake.jpeg" },
       { id: 4, nombre: "Lemon Pie", descripcion: "Merengue clásico o crema chantilly.", precio: 15000, imagen: "images/lemon-pie.jpeg" },
       { id: 5, nombre: "Torta Alaskita", descripcion: "Base brownie, dulce de leche, chantilly y frutos rojos.", precio: 18000, imagen: "images/torta-alaskita.jpeg" },
       { id: 6, nombre: "Conitos Rellenos", descripcion: "Rellenos de dulce de leche, cubiertos con grana", precio: 700, imagen: "images/conitos-rellenos.jpeg" },
