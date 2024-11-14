@@ -1522,6 +1522,9 @@ pre {
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
+    #ftco-navbar {
+      background-color: transparent !important; /* Hacer el navbar transparente */
+  }
     display: block;
     width: 100%;
     overflow-x: auto;
@@ -1532,6 +1535,9 @@ pre {
 
 @media (max-width: 767.98px) {
   .table-responsive-md {
+    #ftco-navbar {
+      background-color: transparent !important; /* Hacer el navbar transparente */
+  }
     display: block;
     width: 100%;
     overflow-x: auto;
@@ -1542,6 +1548,9 @@ pre {
 
 @media (max-width: 991.98px) {
   .table-responsive-lg {
+    #ftco-navbar {
+      background-color: transparent !important; /* Hacer el navbar transparente */
+  }
     display: block;
     width: 100%;
     overflow-x: auto;
@@ -7332,7 +7341,7 @@ h1, h2, h3, h4, h5,
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: transparent !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
