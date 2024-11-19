@@ -5087,7 +5087,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.125);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -5113,6 +5113,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  color: #f4f4f4;
 }
 
 .card-title {
@@ -5908,8 +5909,9 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.125);
+  border: 1px solid 
+  
 }
 
 .list-group-item:first-child {
@@ -8617,6 +8619,7 @@ button.bg-dark:focus {
 .mb-1,
 .my-1 {
   margin-bottom: 0.25rem !important;
+  color: #fff;
 }
 
 .ml-1,
@@ -10340,7 +10343,7 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #fff !important;
 }
 
 .text-black-50 {
@@ -13270,3 +13273,24 @@ textarea.form-control {
   /* Cambia el tono del color en hover */
 }
 
+/* Cambiar el fondo del contenedor del SmartCart */
+.smartcart .smartcart-container {
+  background-color: rgb(31, 31, 31) !important;  /* Fondo del contenedor */
+  color: white !important;  /* Cambiar el texto a blanco si es necesario */
+}
+
+/* Cambiar el botón de checkout para que tenga el mismo estilo que btn btn-primary */
+.smartcart .smartcart-checkout {
+  background-color: #007bff !important;  /* El color de btn-primary en Bootstrap */
+  border-color: #007bff !important;  /* El color de borde de btn-primary */
+  color: white !important;  /* El color del texto dentro del botón */
+}
+
+.smartcart .smartcart-checkout:hover {
+  background-color: #0056b3 !important;  /* Color del hover del botón */
+  border-color: #0056b3 !important;
+}
+.fw-bold {
+  font-weight: 700 !important;
+  color: #fff;
+}
