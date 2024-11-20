@@ -71,7 +71,7 @@ $(document).ready(function () {
     
             console.log('Botón de checkout clickeado'); // Verificar si el evento ocurre
     
-            const mensaje = "¡Hola! Quiero realizar un pedido. ¿Pueden ayudarme?";
+            const mensaje = "¡Hola! Quiero realizar un pedido. Te envio el resumen de mi carrito.";
             const numeroWhatsapp = '+541157397623'; // Número de WhatsApp
             const urlWhatsApp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensaje)}`;
             window.open(urlWhatsApp, '_blank'); // Abrir WhatsApp en nueva pestaña
