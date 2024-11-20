@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Productos disponibles
     const productos = [
-        { id: 1, nombre: "Mix Degustación", descripcion: "Cheesecake, Torta de Nuez, Lemon Pie, Torta Alaskita", precio: 13000, imagen: "images/Mix.jpeg" },
+        { id: 1, nombre: "Mix Degustación", descripcion: "Cheesecake, Torta de Nuez, Lemon Pie, Torta Alaskita", precio: 13000, imagen: "images/mix.jpeg" },
         { id: 2, nombre: "Torta Terreneitor", descripcion: "Base de nuez, cobertura dulce de leche y chantilly.", precio: 17000, imagen: "images/tortaTerreneitor.jpeg" },
         { id: 3, nombre: "Cheesecake", descripcion: "Dulce de leche o frutos rojos con crema chantilly.", precio: 18000, imagen: "images/Cheesecake.jpeg" },
         { id: 4, nombre: "Lemon Pie", descripcion: "Merengue clásico o crema chantilly.", precio: 15000, imagen: "images/lemonPie.jpeg" },
